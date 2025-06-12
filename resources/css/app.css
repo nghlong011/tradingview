@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "Trebuchet";
-    src: url("{{ asset('fonts/trebuchet.ttf') }}")
+    src: url("../../public/assets/fonts/trebuchet.ttf")
         format("truetype");
 }
 @source '../views';
@@ -14,7 +14,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    /* --font-sans: 'Trebuchet', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+    --font-sans: 'Trebuchet', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
     --color-zinc-50: #fafafa;
     --color-zinc-100: #f5f5f5;

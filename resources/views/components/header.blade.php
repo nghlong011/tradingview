@@ -49,12 +49,7 @@
                     </svg>
                 </button>
             </div>
-            <button class="relative w-full flex px-4 items-center justify-center rounded-lg overflow-hidden transition-all duration-300 py-2 sm:py-3 md:py-4 text-[#F4F4F4] font-semibold text-[16px] sm:text-[18px] md:text-[20px] leading-[20px] sm:leading-[22px] md:leading-[24px] max-w-[150px] hidden sm:flex">
-                <div class="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-600 to-pink-600"></div>
-                <div class="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 transition-opacity duration-300 ease-in-out opacity-0" style="filter: brightness(1.2); mix-blend-mode: soft-light;"></div>
-                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent transition-transform duration-500 ease-in-out opacity-20 -translate-x-full" style="width: 50%; transform: translateX(-200%);"></div>
-                <span class="relative z-10">Download</span>
-            </button>
+            <x-gradient-button text="Download" />
             <div class="w-6 h-5 relative sm:hidden">
                 <span class="absolute w-full h-0.5 bg-white rounded-full transform transition-all duration-300 ease-in-out rotate-0 top-0"></span>
                 <span class="absolute w-full h-0.5 bg-white rounded-full top-2 transition-all duration-300 ease-in-out opacity-100"></span>
